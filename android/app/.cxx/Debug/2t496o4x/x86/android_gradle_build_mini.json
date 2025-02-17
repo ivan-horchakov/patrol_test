@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/ivan-horchakov/fvm/versions/3.29.0/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/ivan-horchakov/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/ivan-horchakov/MyProjects/patrol_test/android/app/.cxx/Debug/2t496o4x/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/ivan-horchakov/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/ivan-horchakov/MyProjects/patrol_test/android/app/.cxx/Debug/2t496o4x/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
