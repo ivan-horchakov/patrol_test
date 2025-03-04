@@ -15,7 +15,7 @@ import 'test_sets/all_test.dart' as test_sets__all_test;
 Future<void> main() async {
   // This is the entrypoint of the bundled Dart test.
   //
-  // Its responsibilies are:
+  // Its responsibilities are:
   //  * Running a special Dart test that runs before all the other tests and
   //    explores the hierarchy of groups and tests.
   //  * Hosting a PatrolAppService, which the native side of Patrol uses to get

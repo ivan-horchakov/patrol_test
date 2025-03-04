@@ -16,6 +16,11 @@ void main() {
     expect(MyHomePagePOM.zeroInitialCounterByKeyFinder, findsOneWidget);
     expect(MyHomePagePOM.incrementCounterFabByKeyFinder, findsOneWidget);
 
+    await patrol.native2.pressHome();
+    await patrol.pumpAndTrySettle(duration: const Duration(seconds: 1));
+    await patrol.native2.openApp(appId: "com.example.patrol_test");
+    await patrol.pumpAndTrySettle(duration: const Duration(seconds: 1));
+
     for (var i = 0; i < 3; i++) {
       //Tap "i" times on the Increment button
       await patrol.tap(MyHomePagePOM.incrementCounterFabByKeyFinder);
